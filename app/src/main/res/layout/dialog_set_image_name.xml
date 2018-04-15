@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialogbackground">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Set Photo Name"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/newImageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:ems="15"
+        android:hint="Name your photo"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/newImageConfirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/backgroundlogin"
+        android:clickable="true"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:textColor="#FFB74D"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="CONFIRM" />
+
+    <Button
+        android:id="@+id/newImageCancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/backgroundsignup"
+        android:clickable="true"
+        android:padding="16dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="CANCEL"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

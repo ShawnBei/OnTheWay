@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialogbackground">
+
+    <TextView
+        android:id="@+id/newDiaryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="New Diary"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/newDiaryEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:ems="16"
+        android:hint="Title of your diary..."
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#607D8B"/>
+
+    <Button
+        android:id="@+id/confirmNewDiaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/backgroundlogin"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="ADD"
+        android:textAllCaps="false"
+        android:textColor="#FFB74D"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/cancelNewdiaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgroundsignup"
+        android:clickable="true"
+        android:padding="16dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="CANCEL"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

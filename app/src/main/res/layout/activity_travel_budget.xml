@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackground"
+    android:orientation="vertical"
+    tools:context="uk.ac.uel.ontheway.TravelBudgetActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget: "
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalBudgetTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="bold"
+            android:textSize="40dp"
+             />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already pay out"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+
+        <ListView
+            android:id="@+id/travelBudgetView"
+            android:layout_width="match_parent"
+            android:layout_height="718dp" />
+
+        <Button
+            android:id="@+id/addNewCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/backgroundlogin"
+            android:clickable="true"
+            android:padding="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="ADD NEW COST"
+            android:textAllCaps="false"
+            android:textColor="#FFB74D"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:id="@+id/restBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Remaining:"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/budgetBackToTravelDetailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/backgroundsignup"
+            android:clickable="true"
+            android:padding="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="BACK"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "390394883512",
+    "firebase_url": "https://ontheway-76115.firebaseio.com",
+    "project_id": "ontheway-76115",
+    "storage_bucket": "ontheway-76115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390394883512:android:e31bfb8ca4a42421",
+        "android_client_info": {
+          "package_name": "uk.ac.uel.ontheway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390394883512-075adp2hd0ldbsfesgte6e6k6kv2bver.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWytK16S3a8sZMt3sflJcKixcOYzVLfvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

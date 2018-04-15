@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">On The Way</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="new_trip">New Trip</string>
+    <string name="trip_location">Trip Location</string>
+    <string name="Trip_location">Trip location</string>
+    <string name="trip_date">Trip Date</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">confirm</string>
+
+
+</resources>

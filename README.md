@@ -20,3 +20,6 @@ If the user want to delete all the trips, we offered a more efficient way – ju
 Users can upload the photos located in their own device memory. Also, users can take photos via the camera. 
 6.	Embedded Application: 
 We embedded a calendar to the app which allow user to check and set the date when initialize a new trip.
+
+
+Pleas feel free to contact us if you have any problem!

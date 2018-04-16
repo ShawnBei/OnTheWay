@@ -22,4 +22,4 @@ Users can upload the photos located in their own device memory. Also, users can 
 We embedded a calendar to the app which allow user to check and set the date when initialize a new trip.
 
 
-Pleas feel free to contact us if you have any problem!
+Pleas feel free to contact us if you have any problem! u1441757@uel.ac.uk
